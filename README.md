@@ -1,16 +1,16 @@
-# ⚡ EV Grid Stress & Risk Analysis
+#  EV Grid Stress & Risk Analysis
 
 A machine learning pipeline to predict and visualize electrical grid stress caused by Electric Vehicle (EV) charging loads — helping utility providers proactively manage grid stability.
 
 ---
 
-## 📌 Problem Statement
+##  Problem Statement
 
 As EV adoption accelerates, uncoordinated charging creates dangerous stress peaks on power grids. This project builds a predictive model to identify **high-risk grid zones** before failures occur, using historical load data and engineered features.
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 ev-grid-analysis/
@@ -39,7 +39,7 @@ notebook
 
 ---
 
-## 🔄 Pipeline Overview
+##  Pipeline Overview
 
 ```
 Raw Data → Preprocess → Feature Engineering → Train Model → Evaluate → Predict → Risk Map
@@ -57,7 +57,7 @@ Raw Data → Preprocess → Feature Engineering → Train Model → Evaluate →
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Clone the Repository
 ```bash
@@ -86,7 +86,7 @@ python predict.py
 
 ---
 
-## 📦 Requirements
+##  Requirements
 
 ```
 pandas
@@ -103,7 +103,7 @@ jupyter
 
 ---
 
-## 📊 Key Features Engineered
+##  Key Features Engineered
 
 - **Peak Hour Flag** — Whether the reading occurred during high-demand hours
 - **Load Variance** — Rolling variance of grid load over time windows
@@ -112,7 +112,7 @@ jupyter
 
 ---
 
-## 🗺️ Risk Map
+##  Risk Map
 
 Open `ev_grid_risk_map.html` in any browser to explore an interactive map showing:
 - 🟢 Low stress zones
@@ -121,7 +121,7 @@ Open `ev_grid_risk_map.html` in any browser to explore an interactive map showin
 
 ---
 
-## 📈 Model Performance
+##  Model Performance
 
 | Metric | Score |
 |--------|-------|
@@ -132,7 +132,7 @@ Open `ev_grid_risk_map.html` in any browser to explore an interactive map showin
 
 
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 - [ ] Integrate real-time grid sensor data via API
 - [ ] Add time-series forecasting (LSTM/Prophet)
@@ -141,11 +141,13 @@ Open `ev_grid_risk_map.html` in any browser to explore an interactive map showin
 
 ---
 
-## 👤 Author
+## 👤 Authors
 
 **Sidharth Satapathy**
 - GitHub: [@SidharthSatapathy04](https://github.com/SidharthSatapathy04)
 
+**Biswaranjan Panda**
+- GitHub: [@biswa2006](https://github.com/biswa2006)
 ---
 
 ## 📄 License
