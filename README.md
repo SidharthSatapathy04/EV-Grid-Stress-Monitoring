@@ -15,20 +15,23 @@ As EV adoption accelerates, uncoordinated charging creates dangerous stress peak
 ```
 ev-grid-analysis/
 │
-├── dataset_builder.py               # Generates synthetic/real EV grid dataset
-├── preprocess.py                    # Data cleaning and normalization
-├── feature_engineering.py           # Feature creation (load variance, peak hours, etc.)
-├── train_model.py                   # Model training (Random Forest / XGBoost)
-├── evaluate_model.py                # Evaluation metrics (accuracy, F1, confusion matrix)
-├── predict.py                       # Run predictions on new data
-├── run_pipeline.py                  # End-to-end pipeline runner
+models
+|  ├── dataset_builder.py               # Generates synthetic/real EV grid dataset
+|  ├── preprocess.py                    # Data cleaning and normalization
+|  ├── feature_engineering.py           # Feature creation (load variance, peak hours, etc.)
+|  ├── train_model.py                   # Model training (Random Forest / XGBoost)
+|  ├── evaluate_model.py                # Evaluation metrics (accuracy, F1, confusion matrix)
+|  ├── predict.py                       # Run predictions on new data
+|  ├── run_pipeline.py                  # End-to-end pipeline runner
+|
+data
+|  ├── ev_grid_stress_dataset.csv       # Raw dataset
+|  ├── preprocessed_ev_grid_dataset.csv # Cleaned dataset
+|  ├── engineered_features.csv          # Final feature set used for training
 │
-├── ev_grid_stress_dataset.csv       # Raw dataset
-├── preprocessed_ev_grid_dataset.csv # Cleaned dataset
-├── engineered_features.csv          # Final feature set used for training
-│
-├── ev_grid_analysis.ipynb           # Exploratory Data Analysis notebook
-├── ev_grid_risk_map.html            # Interactive risk visualization map
+notebook
+|  ├── ev_grid_analysis.ipynb           # Exploratory Data Analysis notebook
+|  ├── ev_grid_risk_map.html            # Interactive risk visualization map
 │
 └── README.md
 ```
