@@ -1,6 +1,7 @@
 """
 Dataset Builder for EV Grid Stress Monitoring System
-Generates synthetic datasets for training and analysis
+Generates synthetic datasets for training of models
+
 """
 
 import pandas as pd
