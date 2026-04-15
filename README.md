@@ -15,7 +15,7 @@ As EV adoption accelerates, uncoordinated charging creates dangerous stress peak
 ```
 ev-grid-analysis/
 │
-models
+src
 |  ├── dataset_builder.py               # Generates synthetic/real EV grid dataset
 |  ├── preprocess.py                    # Data cleaning and normalization
 |  ├── feature_engineering.py           # Feature creation (load variance, peak hours, etc.)
@@ -28,10 +28,11 @@ data
 |  ├── ev_grid_stress_dataset.csv       # Raw dataset
 |  ├── preprocessed_ev_grid_dataset.csv # Cleaned dataset
 |  ├── engineered_features.csv          # Final feature set used for training
-│
+│  ├── ev_grid_risk_map.html            # Interactive risk visualization map
+|
 notebook
 |  ├── ev_grid_analysis.ipynb           # Exploratory Data Analysis notebook
-|  ├── ev_grid_risk_map.html            # Interactive risk visualization map
+|  
 │
 └── README.md
 ```
