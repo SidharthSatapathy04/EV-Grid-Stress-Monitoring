@@ -151,6 +151,9 @@ Open `ev_grid_risk_map.html` in any browser to explore an interactive map showin
 **Tumulu Mihika**
 - GitHub: [@TumuluMihika](https://github.com/TumuluMihika)
 
+**Swagat Pradhan**
+- GitHub: [@swagatpradhan2005](https://github.com/swagatpradhan2005)
+
 ---
 
 ## 📄 License
