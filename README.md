@@ -136,7 +136,6 @@ Open `ev_grid_risk_map.html` in any browser to explore an interactive map showin
 
 - [ ] Integrate real-time grid sensor data via API
 - [ ] Add time-series forecasting (LSTM/Prophet)
-- [ ] Deploy as a web dashboard (Streamlit/Flask)
 - [ ] Expand to multi-city grid datasets
 
 ---
@@ -148,6 +147,10 @@ Open `ev_grid_risk_map.html` in any browser to explore an interactive map showin
 
 **Biswaranjan Panda**
 - GitHub: [@biswa2006](https://github.com/biswa2006)
+  
+**Tumulu Mihika**
+- GitHub: [@TumuluMihika](https://github.com/TumuluMihika)
+
 ---
 
 ## 📄 License
